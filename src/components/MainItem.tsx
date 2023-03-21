@@ -6,6 +6,7 @@ interface MainItemProps {
   text?: string;
   video?: boolean;
   blocked?: boolean;
+  notLink?: boolean;
   customClass?: string;
 }
 
@@ -15,6 +16,7 @@ export default function MainItem({
   text,
   video,
   blocked,
+  notLink,
   customClass,
 }: MainItemProps) {
   return (
@@ -39,6 +41,8 @@ export default function MainItem({
         className={
           video
             ? "hidden"
+            : notLink
+            ? `rounded-xl scale-[1.189] translate-y-[1.115rem] ${customClass}`
             : `linkImages rounded-xl scale-[1.189] translate-y-[1.115rem] transition-all duration-300 ${customClass}`
         }
       />

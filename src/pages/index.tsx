@@ -1,37 +1,46 @@
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer.jsx";
+import Footer from "@/components/Footer";
 import MainItem from "@/components/MainItem";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Home() {
-  if (typeof document !== "undefined") {
-    const bigLinkItems = document.querySelectorAll(".bigLinkItems");
-    const linkArrows = document.querySelectorAll(".linkArrows");
-    const linkTexts = document.querySelectorAll(".linkTexts");
-    const linkBlurs = document.querySelectorAll(".linkBlurs");
-    const linkImages = document.querySelectorAll(".linkImages");
-    bigLinkItems.forEach((element, index) => {
-      bigLinkItems[index].addEventListener("mouseover", () => {
-        linkTexts[index].classList.remove("opacity-0");
-        linkImages[index].classList.add("blur-md");
-        linkBlurs[index].classList.add("bg-black/25");
-        // bigLinkItems[index].classList.add("bg-black/50");
-        linkArrows[index].classList.remove("opacity-0");
-        linkArrows[index].classList.add("translate-x-5", "-translate-y-5");
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      const bigLinkItems = document.querySelectorAll(".bigLinkItems");
+      const linkArrows = document.querySelectorAll(".linkArrows");
+      const linkTexts = document.querySelectorAll(".linkTexts");
+      const linkBlurs = document.querySelectorAll(".linkBlurs");
+      const linkImages = document.querySelectorAll(".linkImages");
+      bigLinkItems.forEach((element, index) => {
+        function handleMouseOver() {
+          linkTexts[index].classList.remove("opacity-0");
+          linkImages[index].classList.add("blur-md");
+          linkBlurs[index].classList.add("bg-black/25");
+          // bigLinkItems[index].classList.add("bg-black/50");
+          linkArrows[index].classList.remove("opacity-0");
+          linkArrows[index].classList.add("translate-x-5", "-translate-y-5");
+        }
+        function handleMouseOut() {
+          linkTexts[index].classList.add("opacity-0");
+          linkArrows[index].classList.add("opacity-0");
+          linkImages[index].classList.remove("blur-md");
+          linkBlurs[index].classList.remove("bg-black/25");
+          // bigLinkItems[index].classList.remove("bg-black/50");
+          linkArrows[index].classList.remove("translate-x-5", "-translate-y-5");
+        }
+        bigLinkItems[index].addEventListener("mouseover", handleMouseOver);
+        bigLinkItems[index].addEventListener("mouseout", handleMouseOut);
+        return () => {
+          bigLinkItems[index].removeEventListener("mouseover", handleMouseOver);
+          bigLinkItems[index].removeEventListener("mouseout", handleMouseOut);
+        };
       });
-      bigLinkItems[index].addEventListener("mouseout", () => {
-        linkTexts[index].classList.add("opacity-0");
-        linkArrows[index].classList.add("opacity-0");
-        linkImages[index].classList.remove("blur-md");
-        linkBlurs[index].classList.remove("bg-black/25");
-        // bigLinkItems[index].classList.remove("bg-black/50");
-        linkArrows[index].classList.remove("translate-x-5", "-translate-y-5");
-      });
-    });
-  }
+    }
+  });
 
   return (
     <>
@@ -59,7 +68,7 @@ export default function Home() {
         </div>
         <main>
           <section className="flex items-center justify-center animate-[load_1s]">
-            <header className="flex flex-col items-center justify-center max-w-[700px] text-center mt-[15rem] transition-all">
+            <header className="flex flex-col items-center justify-center max-w-[700px] text-center mt-[15rem]">
               <h1 className="text-[4.575rem] leading-[86px] tracking-[-0.012em]">
                 A brand and product designer working with clients globally
               </h1>
