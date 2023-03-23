@@ -6,9 +6,9 @@ export default function Contact({ xl }: ContactProps) {
   return (
     <div className={xl ? "flex items-center justify-center h-screen" : ""}>
       <div
-        className={`flex flex-col items-center justify-center mt-[12.8rem] mb-[12.25rem] ${
+        className={`flex flex-col items-center justify-center mt-[12.8rem] mb-[12.25rem] animate-[load_1s] ${
           xl
-            ? "text-[4.5rem] leading-[5.375rem] m-0 -translate-y-1"
+            ? "text-[4.5rem] leading-[5.375rem]"
             : "text-[2.375rem] leading-[2.9rem]"
         }`}
       >

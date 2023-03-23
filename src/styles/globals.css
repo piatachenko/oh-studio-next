@@ -26,11 +26,11 @@ html {
     transform: rotate(0deg);
   }
   33% {
-    stroke-width: 100;
+    stroke-width: 80;
     transform: rotate(45deg);
   }
   66% {
-    stroke-width: 180;
+    stroke-width: 175;
     transform: rotate(90deg);
   }
   100% {
