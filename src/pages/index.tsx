@@ -20,7 +20,6 @@ export default function Home() {
           linkTexts[index].classList.remove("opacity-0");
           linkImages[index].classList.add("blur-md");
           linkBlurs[index].classList.add("bg-black/25");
-          // bigLinkItems[index].classList.add("bg-black/50");
           linkArrows[index].classList.remove("opacity-0");
           linkArrows[index].classList.add("translate-x-5", "-translate-y-5");
         }
@@ -29,7 +28,6 @@ export default function Home() {
           linkArrows[index].classList.add("opacity-0");
           linkImages[index].classList.remove("blur-md");
           linkBlurs[index].classList.remove("bg-black/25");
-          // bigLinkItems[index].classList.remove("bg-black/50");
           linkArrows[index].classList.remove("translate-x-5", "-translate-y-5");
         }
         bigLinkItems[index].addEventListener("mouseover", handleMouseOver);
@@ -45,7 +43,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>OH.STUDIO</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/white.ico" />
       </Head>
@@ -53,7 +51,7 @@ export default function Home() {
         <div className="absolute z-10">
           <Navbar currentPage="home" />
           <div className="fixed left-1/2 right-1/2 flex items-center justify-center bottom-[1.88rem] text-white text-sm animate-[load_1s]">
-            <Link
+            <a
               href="http://oh.supply/"
               className="pl-[1.65rem] pr-[1.75rem] py-2.5 bg-black rounded-full flex items-center justify-center gap-[0.45rem]"
             >
@@ -63,7 +61,7 @@ export default function Home() {
                 className="select-none w-[1.1rem] h-[1.1rem]"
               />
               <p>Shop</p>
-            </Link>
+            </a>
           </div>
         </div>
         <main>
