@@ -4,8 +4,14 @@ interface FooterProps {
 
 export default function Footer({ fixed }: FooterProps) {
   return (
-    <footer >
-      <div className={fixed ? "fixed bottom-0 inset-x-0 max-w-[87.5rem] mx-auto" : "max-w-[87.5rem] mx-auto"}>
+    <footer>
+      <div
+        className={
+          fixed
+            ? "fixed bottom-0 inset-x-0 max-w-[87.5rem] mx-auto"
+            : "max-w-[87.5rem] mx-auto"
+        }
+      >
         <div className="flex items-center justify-between text-sm mb-[2.15rem] mx-[1.75rem]">
           <div className="flex items-center">
             <div>

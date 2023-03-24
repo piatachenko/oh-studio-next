@@ -18,14 +18,14 @@ export default function Profile() {
         </div>
         <main className="text-center max-w-[87.5rem] mx-auto">
           <div>
-            <header className="mt-[23rem] mb-[18.8rem] animate-[load_1s]">
+            <header className="flex items-center justify-center mt-[7rem] mb-[2.5rem] animate-[load_1s] h-[70vh]">
               <h1 className="text-7xl">Hey 👋🏼 I&apos;m Oli</h1>
             </header>
             <section className="animate-[load_1s]">
               <div className="flex gap-5 px-[2.5rem] h-[31rem] mb-10 mx-auto">
                 <MainItem
                   src="https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024"
-                  customClass="scale-[] -translate-y-[5rem]"
+                  customClass="scale-[1] -translate-y-[3rem]"
                   notLink
                 />
                 <MainItem

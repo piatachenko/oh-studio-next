@@ -4,7 +4,7 @@ interface ContactProps {
 
 export default function Contact({ xl }: ContactProps) {
   return (
-    <div className={xl ? "flex items-center justify-center h-screen" : ""}>
+    <div className={`flex items-center justify-center ${xl ? "h-screen" : "h-[50vh]"}`}>
       <div
         className={`flex flex-col items-center justify-center mt-[12.8rem] mb-[12.25rem] animate-[load_1s] ${
           xl

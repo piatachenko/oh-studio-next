@@ -3,10 +3,13 @@ import { useEffect, useState } from "react";
 
 interface NavbarProps {
   currentPage: string;
-  isScrollBarInvisible?: boolean
+  isScrollBarInvisible?: boolean;
 }
 
-export default function Navbar({ currentPage, isScrollBarInvisible }: NavbarProps) {
+export default function Navbar({
+  currentPage,
+  isScrollBarInvisible,
+}: NavbarProps) {
   return (
     <div className="fixed left-1/2 right-1/2 flex items-center justify-center top-[1.89rem]">
       <div

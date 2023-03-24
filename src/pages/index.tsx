@@ -66,11 +66,11 @@ export default function Home() {
         </div>
         <main>
           <section className="flex items-center justify-center animate-[load_1s]">
-            <header className="flex flex-col items-center justify-center max-w-[700px] text-center mt-[15rem]">
+            <header className="flex flex-col items-center justify-center max-w-[700px] text-center h-[70vh] mt-28 mb-10">
               <h1 className="text-[4.575rem] leading-[86px] tracking-[-0.012em]">
                 A brand and product designer working with clients globally
               </h1>
-              <div className="flex gap-[0.575rem] mt-[2.5rem] mb-[10.5rem]">
+              <div className="flex gap-[0.575rem] mt-[2.5rem]">
                 <p className="text-sm py-2 leading-[1.2em]">Expertise</p>
                 <p className="text-sm py-2 px-3 leading-[1.2em] bg-[#F3F2F1] rounded-full">
                   Branding
