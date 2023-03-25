@@ -39,13 +39,13 @@ html {
   }
 }
 
-@keyframes load {
+@keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translate(0, 10px);
+    transform: translateY(5rem);
   }
   100% {
     opacity: 1;
-    transform: translate(0, 0);
+    transform: translateY(0);
   }
 }

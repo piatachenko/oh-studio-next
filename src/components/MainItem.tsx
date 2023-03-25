@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FadeInOnScroll from "./FadeInOnScroll";
 
 interface MainItemProps {
   src?: string;
@@ -20,7 +21,7 @@ export default function MainItem({
   customClass,
 }: MainItemProps) {
   return (
-    <Link
+      <Link
       href="/"
       className="bigLinkItems relative flex-1 overflow-clip rounded-xl"
     >
