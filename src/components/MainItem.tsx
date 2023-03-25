@@ -43,7 +43,7 @@ export default function MainItem({
           video
             ? "hidden"
             : notLink
-            ? `rounded-xl scale-[1.189] translate-y-[1.115rem] ${customClass}`
+            ? `rounded-xl scale-[1.189] ${src='https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024' ? '' : 'translate-y-[1.115rem]'} ${customClass}`
             : `linkImages rounded-xl scale-[1.189] translate-y-[1.115rem] transition-all duration-300 ${customClass}`
         }
       />
