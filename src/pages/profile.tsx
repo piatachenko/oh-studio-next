@@ -27,7 +27,7 @@ export default function Profile() {
                 <div className="flex gap-5 px-[2.5rem] h-[31rem] mb-10 mx-auto">
                   <MainItem
                     src="https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024"
-                    customClass="scale-[1] translate-y-0"
+                    customClass="scale-[1] translate-y-[0]"
                     notLink
                   />
                   <MainItem
