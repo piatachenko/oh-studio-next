@@ -32,6 +32,7 @@ export default function Profile() {
                   />
                   <MainItem
                     src="https://framerusercontent.com/images/O3Foxt0XkzTsjGc74Ap0Hrxtz4c.jpg?scale-down-to=1024"
+                    customClass="scale-[1.275]"
                     notLink
                   />
                 </div>
