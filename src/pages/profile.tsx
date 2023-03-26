@@ -18,7 +18,7 @@ export default function Profile() {
           <div className="absolute z-10">
             <Navbar currentPage="profile" />
           </div>
-          <main className="text-center max-w-[87.5rem] mx-auto">
+          <main className="text-center max-w-[87.5rem] mx-auto px-4">
             <div>
               <header className="flex items-center justify-center mt-[7rem] mb-[2.5rem] h-[50vh] lg:h-[70vh] fadeIn">
                 <h1 className="text-[2.25rem] leading-[2.6875rem] md:text-[3rem] md:leading-[3.65rem] lg:text-[4.5rem] lg:leading-[5.375rem]">
@@ -26,7 +26,7 @@ export default function Profile() {
                 </h1>
               </header>
               <div className="animate-[fadeIn_1s]">
-                <div className="flex gap-5 px-[1.25rem] lg:px-[2.5rem] h-[31rem] mb-10 mx-auto">
+                <div className="flex gap-5 px-[0.25rem] lg:px-[1.5rem] h-[31rem] mb-10 mx-auto">
                   <div>
                     <MainItem
                       src="https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024"
@@ -45,7 +45,7 @@ export default function Profile() {
                     <div className="text-sm py-2 px-3 leading-[1.2em] bg-[#F3F2F1] rounded-full inline-flex mb-[1.25rem] fadeIn">
                       About
                     </div>
-                    <div className="text-[1.5rem] leading-[2.125rem] md:text-[2.375rem] md:leading-[2.875rem] mx-4 fadeIn">
+                    <div className="text-[1.5rem] leading-[2.125rem] md:text-[2.375rem] md:leading-[2.875rem] fadeIn">
                       A freelance designer based in the UK. I combine my
                       experience in product and brand to solve problems, tell
                       stories, and create compelling experiences.
@@ -61,7 +61,7 @@ export default function Profile() {
                       Where I&apos;ve worked
                     </div>
                   </div>
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-y-[5rem] mx-auto mb-[9.5rem] fadeIn">
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-y-[5rem] gap-x-2 mx-auto mb-[9.5rem] fadeIn">
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">
@@ -232,7 +232,7 @@ export default function Profile() {
                     </div>
                   </header>
                   <div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 justify-items-center gap-y-[5.2rem] px-[2.25rem] fadeIn">
+                    <div className="grid grid-cols-2 md:grid-cols-4 justify-items-center gap-y-[5.2rem] px-[1.25rem] fadeIn">
                       <img
                         src="https://framerusercontent.com/images/nXLdc1LsU15dk6AODEpMgByLDw.png?scale-down-to=512"
                         alt=""

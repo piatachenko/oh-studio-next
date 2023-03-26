@@ -7,7 +7,7 @@ interface ContactProps {
 export default function Contact({ xl }: ContactProps) {
   return (
     <div
-      className={`flex items-center justify-center text-center ${
+      className={`flex items-center justify-center text-center px-4 ${
         xl ? "h-screen" : "h-[50vh]"
       }`}
     >
