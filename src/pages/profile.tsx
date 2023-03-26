@@ -23,7 +23,7 @@ export default function Profile() {
               <header className="flex items-center justify-center mt-[7rem] mb-[2.5rem] h-[70vh] fadeIn">
                 <h1 className="text-7xl">Hey 👋🏼 I&apos;m Oli</h1>
               </header>
-              <section className="animate-[fadeIn_1s]">
+              <div className="animate-[fadeIn_1s]">
                 <div className="flex gap-5 px-[2.5rem] h-[31rem] mb-10 mx-auto">
                   <MainItem
                     src="https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024"
@@ -49,14 +49,14 @@ export default function Profile() {
                   </div>
                 </div>
                 <div>
-                  <header>
+                  <div>
                     <div className="text-sm py-2 px-3 leading-[1.2em] bg-[#F3F2F1] rounded-full inline-flex fadeIn">
                       Experience
                     </div>
                     <div className="text-[2.375rem] leading-[2.875rem] mt-[0.64rem] mb-[7.4rem] fadeIn">
                       Where I&apos;ve worked
                     </div>
-                  </header>
+                  </div>
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-y-[5rem] mx-auto mb-[9.5rem] fadeIn">
                     <div>
                       <div className="space-y-[0.57rem]">
@@ -270,7 +270,7 @@ export default function Profile() {
                     </div>
                   </div>
                 </div>
-              </section>
+              </div>
             </div>
           </main>
           <Contact />

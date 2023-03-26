@@ -62,7 +62,7 @@ export default function Home() {
                   alt=""
                   className="select-none w-[1.1rem] h-[1.1rem]"
                 />
-                <p>Shop</p>
+                <span>Shop</span>
               </a>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
               </header>
             </section>
-            <section className="fadeInSlow">
+            <div className="fadeInSlow">
               <div className="flex gap-5 px-[2.5rem] h-[31rem] mb-10 max-w-[1400px] mx-auto">
                 <MainItem
                   src="https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024"
@@ -115,7 +115,7 @@ export default function Home() {
                   video
                 />
                 <MainItem
-                  src="	https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024"
+                  src="https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024"
                   text="Schuh"
                 />
               </div>
@@ -140,6 +140,7 @@ export default function Home() {
                 <MainItem
                   src="https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024"
                   text="Lawtrades"
+                  notLink
                   blocked
                 />
               </div>
@@ -147,6 +148,7 @@ export default function Home() {
                 <MainItem
                   src="https://framerusercontent.com/images/hQVBeiDNGU2TfeDJALuhawlcto.jpg?scale-down-to=1024"
                   text="Baselworld"
+                  notLink
                   blocked
                 />
                 <MainItem
@@ -156,7 +158,7 @@ export default function Home() {
                   video
                 />
               </div>
-            </section>
+            </div>
           </main>
         </div>
         <Contact />
