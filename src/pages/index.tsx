@@ -90,20 +90,24 @@ export default function Home() {
                   <MainItem
                     src="https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024"
                     text="Aire"
+                    link="https://oh.studio/projects/aire"
                   />
                   <MainItem
                     src="https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024"
                     text="Correlated"
+                    link="https://oh.studio/projects/correlated"
                   />
                 </div>
                 <div className="flex max-md:flex-col gap-5 px-[1.25rem] lg:px-[2.5rem] md:max-h-[31rem] max-md:h-[140vw] mb-5 md:mb-10 max-w-[1400px] mx-auto">
                   <MainItem
                     src="https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024"
                     text="Channel 5"
+                    link="https://oh.studio/projects/my5"
                   />
                   <MainItem
                     src="https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024"
                     text="Ronald Abram"
+                    link="https://oh.studio/projects/ronald-abram"
                   />
                 </div>
                 <div className="flex max-md:flex-col gap-5 px-[1.25rem] lg:px-[2.5rem] md:max-h-[31rem] max-md:h-[140vw] mb-5 md:mb-10 max-w-[1400px] mx-auto">
@@ -111,27 +115,32 @@ export default function Home() {
                     src="https://framerusercontent.com/modules/assets/XuzMZ3Z1QQHKltPqRjzGnsWs27M~Jq48dGctHPeHtnn90xE_Aem-3HQJB_aNVwfu2fao5Ok.mp4"
                     text="Propeller"
                     video
+                    link="https://oh.studio/projects/propeller"
                   />
                   <MainItem
                     src="https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024"
                     text="Schuh"
+                    link="https://oh.studio/projects/schuh"
                   />
                 </div>
                 <div className="flex max-md:flex-col gap-5 px-[1.25rem] lg:px-[2.5rem] md:max-h-[31rem] max-md:h-[140vw] mb-5 md:mb-10 max-w-[1400px] mx-auto">
                   <MainItem
                     src="https://framerusercontent.com/images/e3moUZXfgtjYQY4ILakIMaz4n7s.jpg?scale-down-to=2048"
                     text="Paperstreet"
+                    link="https://oh.studio/projects/paperstreet"
                   />
                   <MainItem
                     src="https://framerusercontent.com/modules/assets/SGjFvgcbK7s4yKh0xwuNjriMNII~5SCIlrVv6SNR5PFMjsMv3qAIi3sYsG2gjdlB0qM-tng.mp4"
                     text="OH.SUPPLY"
                     video
+                    link="https://oh.studio/projects/oh-supply"
                   />
                 </div>
                 <div className="flex max-md:flex-col gap-5 px-[1.25rem] lg:px-[2.5rem] md:max-h-[31rem] max-md:h-[140vw] mb-5 md:mb-10 max-w-[1400px] mx-auto">
                   <MainItem
                     src="https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=1024"
                     text="Monokel Eyewear"
+                    link="https://oh.studio/projects/monokel-eyewear"
                   />
                   <MainItem
                     src="https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024"
@@ -151,6 +160,7 @@ export default function Home() {
                     src="https://framerusercontent.com/modules/assets/NieGBlxBdgpz9QCHV5Aj89rWjVg~DPEeC0jYyBwx9c865cOkUi-KzBM-3ukyhpgtPhvYo_U.mp4"
                     text="NYCB"
                     video
+                    link="https://oh.studio/projects/nycb"
                   />
                 </div>
               </div>
