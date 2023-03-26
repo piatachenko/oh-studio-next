@@ -11,7 +11,7 @@ export default function Navbar({
   isScrollBarInvisible,
 }: NavbarProps) {
   return (
-    <div className="fixed left-1/2 right-1/2 flex items-center justify-center top-[1.89rem]">
+    <div className="fixed left-1/2 right-1/2 flex items-center justify-center top-[1.25rem] md:top-[1.89rem]">
       <div
         className={`flex justify-between rounded-full p-[0.26rem] backdrop-blur-lg bg-[#e8e5e4]/50 text-sm ${
           isScrollBarInvisible ? "md:mr-[1.09rem]" : ""
