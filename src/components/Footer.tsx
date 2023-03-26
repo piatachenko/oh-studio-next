@@ -6,21 +6,19 @@ export default function Footer({ fixed }: FooterProps) {
   return (
     <footer>
       <div
-        className={
-          fixed
-            ? "fixed bottom-0 inset-x-0 max-w-[87.5rem] mx-auto"
-            : "max-w-[87.5rem] mx-auto"
-        }
+        className={`max-w-[87.5rem] mx-auto text-center
+          ${fixed ? "fixed bottom-0 inset-x-0 max-md:mb-10" : "max-md:mb-20"}
+        `}
       >
-        <div className="flex items-center justify-between text-sm mb-[2.15rem] mx-[1.75rem]">
-          <div className="flex items-center">
+        <div className="md:flex items-center justify-between text-sm mb-[2.15rem] mx-[1.75rem]">
+          <div className="flex max-md:flex-col items-center max-md:justify-center max-md:gap-3">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 800 800"
                 width="800"
                 height="800"
-                className="w-[1.83rem] h-[1.83rem] mr-3 animate-[spin_4s_ease_0s_infinite]"
+                className="w-[1.83rem] h-[1.83rem] md:mr-3 animate-[spin_4s_ease_0s_infinite]"
                 strokeWidth="20"
                 stroke="#000"
               >
@@ -33,7 +31,7 @@ export default function Footer({ fixed }: FooterProps) {
             </div>
             <div>© Oli Harris 2023</div>
           </div>
-          <div className="flex items-center gap-[0.9rem]">
+          <div className="flex items-center gap-[0.9rem] max-md:justify-center max-md:mt-2">
             <div>
               <a
                 href="https://twitter.com/olvhrs"

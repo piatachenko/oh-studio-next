@@ -7,14 +7,14 @@ interface ContactProps {
 export default function Contact({ xl }: ContactProps) {
   return (
     <div
-      className={`flex items-center justify-center ${
+      className={`flex items-center justify-center text-center ${
         xl ? "h-screen" : "h-[50vh]"
       }`}
     >
       <div
         className={`flex flex-col items-center justify-center mt-[12.8rem] mb-[12.25rem] ${
           xl
-            ? "text-[4.5rem] leading-[5.375rem] -translate-y-1"
+            ? "text-[2.25rem] leading-[2.6875rem] md:text-[3rem] md:leading-[3.65rem] lg:text-[4.5rem] lg:leading-[5.375rem] -translate-y-1"
             : "text-[2.375rem] leading-[2.9rem]"
         }`}
       >

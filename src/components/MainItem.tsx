@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { MouseEventHandler } from "react";
 
 interface MainItemProps {
   src?: string;
@@ -20,9 +19,6 @@ export default function MainItem({
   notLink,
   customClass,
 }: MainItemProps) {
-  const handleClick: MouseEventHandler<HTMLAnchorElement> = (event: any) => {
-    event.preventDefault();
-  };
   return (
     <>
       {!notLink ? (
