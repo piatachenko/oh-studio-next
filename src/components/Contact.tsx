@@ -15,7 +15,7 @@ export default function Contact({ xl }: ContactProps) {
         className={`flex flex-col items-center justify-center mt-[12.8rem] mb-[12.25rem] ${
           xl
             ? "text-[2.25rem] leading-[2.6875rem] md:text-[3rem] md:leading-[3.65rem] lg:text-[4.5rem] lg:leading-[5.375rem] -translate-y-1"
-            : "text-[2.375rem] leading-[2.9rem]"
+            : "text-[1.875rem] leading-[2.25rem] md:text-[2.375rem] md:leading-[2.875rem]"
         }`}
       >
         <FadeInOnScroll>

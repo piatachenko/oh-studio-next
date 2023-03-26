@@ -20,28 +20,32 @@ export default function Profile() {
           </div>
           <main className="text-center max-w-[87.5rem] mx-auto">
             <div>
-              <header className="flex items-center justify-center mt-[7rem] mb-[2.5rem] h-[70vh] fadeIn">
-                <h1 className="text-7xl">Hey 👋🏼 I&apos;m Oli</h1>
+              <header className="flex items-center justify-center mt-[7rem] mb-[2.5rem] h-[50vh] lg:h-[70vh] fadeIn">
+                <h1 className="text-[2.25rem] leading-[2.6875rem] md:text-[3rem] md:leading-[3.65rem] lg:text-[4.5rem] lg:leading-[5.375rem]">
+                  Hey 👋🏼 I&apos;m Oli
+                </h1>
               </header>
               <div className="animate-[fadeIn_1s]">
-                <div className="flex gap-5 px-[2.5rem] h-[31rem] mb-10 mx-auto">
-                  <MainItem
-                    src="https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024"
-                    customClass="scale-[1]"
-                    notLink
-                  />
-                  <MainItem
-                    src="https://framerusercontent.com/images/O3Foxt0XkzTsjGc74Ap0Hrxtz4c.jpg?scale-down-to=1024"
-                    customClass="scale-[1.275]"
-                    notLink
-                  />
+                <div className="flex gap-5 px-[1.25rem] lg:px-[2.5rem] h-[31rem] mb-10 mx-auto">
+                  <div>
+                    <MainItem
+                      src="https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024"
+                      notLink
+                    />
+                  </div>
+                  <div className="max-sm:hidden">
+                    <MainItem
+                      src="https://framerusercontent.com/images/O3Foxt0XkzTsjGc74Ap0Hrxtz4c.jpg?scale-down-to=1024"
+                      notLink
+                    />
+                  </div>
                 </div>
                 <div className="flex justify-center">
-                  <div className="max-w-[43.75rem]">
-                    <div className="text-sm py-2 px-3 leading-[1.2em] bg-[#F3F2F1] rounded-full inline-flex mt-[8.75rem] mb-[1.25rem] fadeIn">
+                  <div className="max-w-[37.5rem] lg:max-w-[43.75rem] mt-[3rem] mb-[6rem] md:mt-[8.75rem] md:mb-[13.65rem]">
+                    <div className="text-sm py-2 px-3 leading-[1.2em] bg-[#F3F2F1] rounded-full inline-flex mb-[1.25rem] fadeIn">
                       About
                     </div>
-                    <div className="text-[2.375rem] leading-[2.875rem] mb-[13.65rem] fadeIn">
+                    <div className="text-[1.5rem] leading-[2.125rem] md:text-[2.375rem] md:leading-[2.875rem] mx-4 fadeIn">
                       A freelance designer based in the UK. I combine my
                       experience in product and brand to solve problems, tell
                       stories, and create compelling experiences.
@@ -53,7 +57,7 @@ export default function Profile() {
                     <div className="text-sm py-2 px-3 leading-[1.2em] bg-[#F3F2F1] rounded-full inline-flex fadeIn">
                       Experience
                     </div>
-                    <div className="text-[2.375rem] leading-[2.875rem] mt-[0.64rem] mb-[7.4rem] fadeIn">
+                    <div className="text-[1.875rem] leading-[2.25rem] md:text-[2.375rem] md:leading-[2.875rem] mt-[0.64rem] mb-[7.4rem] fadeIn">
                       Where I&apos;ve worked
                     </div>
                   </div>
@@ -63,7 +67,9 @@ export default function Profile() {
                         <div className="text-[#828282] text-sm">
                           2017 — Present
                         </div>
-                        <div className="text-[1.375rem]">OH.STUDIO</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          OH.STUDIO
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Freelance Designer
                         </div>
@@ -77,7 +83,9 @@ export default function Profile() {
                         <div className="text-[#828282] text-sm">
                           2021 — Present
                         </div>
-                        <div className="text-[1.375rem]">Friendly Studio</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          Friendly Studio
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Lead Product Designer
                         </div>
@@ -89,7 +97,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2022</div>
-                        <div className="text-[1.375rem]">R/GA</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          R/GA
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Senior Visual Designer
                         </div>
@@ -101,7 +111,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2021</div>
-                        <div className="text-[1.375rem]">R/GA</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          R/GA
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Senior Visual Designer
                         </div>
@@ -113,7 +125,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2021</div>
-                        <div className="text-[1.375rem]">AKQA</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          AKQA
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Senior Designer
                         </div>
@@ -125,7 +139,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2020</div>
-                        <div className="text-[1.375rem]">AKQA</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          AKQA
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Senior Designer
                         </div>
@@ -137,7 +153,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2019</div>
-                        <div className="text-[1.375rem]">UI Centric</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          UI Centric
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Senior Product Designer
                         </div>
@@ -149,7 +167,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2017</div>
-                        <div className="text-[1.375rem]">Agency TK</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          Agency TK
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Senior Digital Designer
                         </div>
@@ -161,7 +181,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2012</div>
-                        <div className="text-[1.375rem]">Agency TK</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          Agency TK
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Digital Designer
                         </div>
@@ -173,7 +195,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2009</div>
-                        <div className="text-[1.375rem]">Next Level</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          Next Level
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Digital Designer
                         </div>
@@ -185,7 +209,9 @@ export default function Profile() {
                     <div>
                       <div className="space-y-[0.57rem]">
                         <div className="text-[#828282] text-sm">2008</div>
-                        <div className="text-[1.375rem]">Next Level</div>
+                        <div className="text-[1.125rem] lg:text-[1.375rem]">
+                          Next Level
+                        </div>
                         <div className="text-[#828282] text-sm">
                           Junior Digital Designer
                         </div>
@@ -201,7 +227,7 @@ export default function Profile() {
                     <div className="text-sm py-2 px-3 leading-[1.2em] bg-[#F3F2F1] rounded-full inline-flex fadeIn">
                       Clients
                     </div>
-                    <div className="text-[2.375rem] leading-[2.875rem] mt-[0.65rem] mb-[7rem] fadeIn">
+                    <div className="text-[1.875rem] leading-[2.25rem] md:text-[2.375rem] md:leading-[2.875rem] mt-[0.65rem] mb-[7rem] fadeIn">
                       Who I&apos;ve worked with
                     </div>
                   </header>

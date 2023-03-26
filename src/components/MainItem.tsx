@@ -87,7 +87,9 @@ export default function MainItem({
             <span className="relative block">
               <span className="linkTexts absolute opacity-0 top-5 left-5 text-white transition-all duration-300 text-lg">
                 {text} <br />
-                <span className="text-[#838383] -translate-y-0.5 block">Coming Soon</span>
+                <span className="text-[#838383] -translate-y-0.5 block">
+                  Coming Soon
+                </span>
               </span>
               <span className="linkArrows absolute top-10 right-10 p-[0.9rem] w-12 h-12 rounded-full opacity-0 transition-all duration-500 bg-black block">
                 <svg
@@ -117,25 +119,20 @@ export default function MainItem({
           </span>
         </div>
       ) : (
-        <div className="bigLinkItems relative flex-1 overflow-clip rounded-xl">
+        <div className="relative flex-1 overflow-clip rounded-xl h-full">
           {video ? (
             <video
               src={src}
               autoPlay
               muted
               loop
-              className={`linkImages rounded-xl scale-[1.189] translate-y-[1.115rem] transition-all duration-300 ${customClass}`}
+              className={`min-h-full min-w-full object-cover ${customClass}`}
             />
           ) : (
             <img
               src={src}
               alt=""
-              className={`rounded-xl scale-[1.189] ${
-                src ===
-                "https://framerusercontent.com/images/wJINOk3BFAbQRx6ZySXfbltPxU.jpg?scale-down-to=1024"
-                  ? ""
-                  : "translate-y-[1.115rem]"
-              } ${customClass}`}
+              className={`min-h-full min-w-full object-cover ${customClass}`}
             />
           )}
         </div>
